@@ -349,7 +349,7 @@ For example, you can associate the following permissions policy with the executi
                 "dynamodb:DescribeStream",
                 "dynamodb:ListStreams"
             ],
-            "Resource": "arn:aws:dynamodb:us-west-2:123456789012:table/GameScores/streams/*"
+            "Resource": "arn:aws:dynamodb:us-west-2:123456789012:table/GameScores/stream/*"
         }
     ]
 }
